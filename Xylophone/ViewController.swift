@@ -9,7 +9,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func keyPressedC(_ sender: UIButton) {
+    @IBAction func keyPressed(_ sender: UIButton) {
+        
+        print(sender.backgroundColor)
         playSound()
     }
     
